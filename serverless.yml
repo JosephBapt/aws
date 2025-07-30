@@ -1,7 +1,4 @@
-# "org" ensures this Service is used with the correct Serverless Framework Access Key.
-org: yorce
-# "service" is the name of this project. This will also be added to your AWS resource names.
-service: prueba
+service: hello
 
 provider:
   name: aws
