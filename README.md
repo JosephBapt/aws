@@ -2,17 +2,27 @@
 
 ## Usage
 
+### Setup
+
+To try this example, you need to run the following command first and follow the instructions:
+
+```
+serverless
+```
+
 ### Deployment
 
-In order to deploy the example, you need to run the following command:
+To deploy the application, run the following command:
 
 ```
 serverless deploy
 ```
 
+Make sure you have your AWS credentials configured before running this command.
+
 ### Invocation
 
-After successful deployment, you can call the created application via HTTP:
+After a successful deployment, you can invoke the deployed function via HTTP:
 
 ```
 curl https://xxxxxxx.execute-api.us-east-1.amazonaws.com/hello
