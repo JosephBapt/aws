@@ -31,5 +31,5 @@ curl https://xxxxxxx.execute-api.us-east-1.amazonaws.com/hello
 Which should result in response similar to:
 
 ```json
-{ "message": "Hello! this is a simple example" }
+{ "message": "Hello! This is a simple example." }
 ```
